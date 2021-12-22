@@ -13,6 +13,9 @@ import bg1 from "./img/bg-1.svg";
 import bg2 from "./img/bg-2.svg";
 import hero from "./img/hero.png";
 import { menu, features } from './data';
+import Request from './Request';
+import Pricing from './Pricing';
+import Paging from './Paging';
 
 function App() {
     return (
@@ -112,6 +115,9 @@ function App() {
                         ))}
                     </div>
                 </div>
+                <Paging />
+                <Pricing />
+                <Request />
                 <div class="relative py-10 bg-white">
                     <div class="relative pt-2 px-8 mx-auto max-w-7xl bg-white">
                         <div class="grid grid-cols-2 gap-x-10 gap-y-4 md:grid-cols-4">
