@@ -112,8 +112,8 @@ function App() {
                         ))}
                     </div>
                 </div>
-                <div class="relative py-10 px-8 mx-auto max-w-7xl bg-white">
-                    <div class="grid grid-cols-2 gap-x-10 gap-y-4 md:grid-cols-4">
+                <div class="relative py-10 bg-white">
+                    <div class="grid grid-cols-2 px-8 gap-x-10 gap-y-4 md:grid-cols-4">
                         <div class="">
                             <img class="w-10 h-8 mb-4" src={up} alt="" />
                             <span class="font-semibold text-2xl">Sed vulptate mi sit amet mauris commodo quis imperdiet convallis</span>
