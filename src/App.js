@@ -1,14 +1,14 @@
 import React from 'react';
 
 import PlayIcon from "./icons/play.svg";
-import GoogleLogo from "./icons/google.svg";
-import FacebookLogo from "./icons/facebook.svg";
-import LogitechLogo from "./icons/logitech.svg";
-import TokopediaLogo from "./icons/tokopedia.svg";
-import PullAndBearLogo from "./icons/pull-and-bear.svg";
+// import GoogleLogo from "./icons/google.svg";
+// import FacebookLogo from "./icons/facebook.svg";
+// import LogitechLogo from "./icons/logitech.svg";
+// import TokopediaLogo from "./icons/tokopedia.svg";
+// import PullAndBearLogo from "./icons/pull-and-bear.svg";
 import bg1 from "./img/bg-1.svg";
 import hero from "./img/hero.png";
-import { menu, features } from './data';
+import { menu } from './data';
 
 function App() {
     return (
