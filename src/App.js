@@ -113,37 +113,41 @@ function App() {
                     </div>
                 </div>
                 <div class="relative py-10 bg-white">
-                    <div class="grid grid-cols-2 px-8 gap-x-10 gap-y-4 md:grid-cols-4">
-                        <div class="">
-                            <img class="w-10 h-8 mb-4" src={up} alt="" />
-                            <span class="font-semibold text-2xl">Sed vulptate mi sit amet mauris commodo quis imperdiet convallis</span>
-                        </div>
-                        <div class="flex flex-col leading-relaxed">
-                            <span class="mb-4 text-gray-500 cursor-pointer">Ranking</span>
-                            <span class="font-medium text-gray-900 cursor-pointer py-1">Top Wesites</span>
-                            <span class="font-medium text-gray-900 cursor-pointer py-1">Top Android Apps</span>
-                            <span class="font-medium text-gray-900 cursor-pointer py-1">Top IOS Apps</span>
-                            <span class="font-medium text-gray-900 cursor-pointer py-1">Digital 100</span>
-                        </div>
-                        <div class="flex flex-col">
-                            <span class="mb-4 text-gray-500 cursor-pointer">Solutions</span>
-                            <span class="font-medium text-gray-900 cursor-pointer py-1">Shopper Intelligence</span>
-                            <span class="font-medium text-gray-900 cursor-pointer py-1">Sales Intelligence</span>
-                            <span class="font-medium text-gray-900 cursor-pointer py-1">Investor Intelligence</span>
-                            <span class="font-medium text-gray-900 cursor-pointer py-1">Advisor Service</span>
-                        </div>
-                        <div class="flex flex-col">
-                            <span class="mb-4 text-gray-500 cursor-pointer">Contact Us</span>
-                            <span class="font-medium text-gray-900 cursor-pointer py-1">hello@lindo.com</span>
+                    <div class="relative pt-2 px-8 mx-auto max-w-7xl bg-white">
+                        <div class="grid grid-cols-2 px-8 gap-x-10 gap-y-4 md:grid-cols-4">
+                            <div class="">
+                                <img class="w-10 h-8 mb-4" src={up} alt="" />
+                                <span class="font-semibold text-2xl">Sed vulptate mi sit amet mauris commodo quis imperdiet convallis</span>
+                            </div>
+                            <div class="flex flex-col leading-relaxed">
+                                <span class="mb-4 text-gray-500 cursor-pointer">Ranking</span>
+                                <span class="font-medium text-gray-900 cursor-pointer py-1">Top Wesites</span>
+                                <span class="font-medium text-gray-900 cursor-pointer py-1">Top Android Apps</span>
+                                <span class="font-medium text-gray-900 cursor-pointer py-1">Top IOS Apps</span>
+                                <span class="font-medium text-gray-900 cursor-pointer py-1">Digital 100</span>
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="mb-4 text-gray-500 cursor-pointer">Solutions</span>
+                                <span class="font-medium text-gray-900 cursor-pointer py-1">Shopper Intelligence</span>
+                                <span class="font-medium text-gray-900 cursor-pointer py-1">Sales Intelligence</span>
+                                <span class="font-medium text-gray-900 cursor-pointer py-1">Investor Intelligence</span>
+                                <span class="font-medium text-gray-900 cursor-pointer py-1">Advisor Service</span>
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="mb-4 text-gray-500 cursor-pointer">Contact Us</span>
+                                <span class="font-medium text-gray-900 cursor-pointer py-1">hello@lindo.com</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="relative pt-2 px-8 mx-auto max-w-7xl bg-white">
-                    <div class="pb-4">
-                        <hr class="border border-gray-200 mb-2" />
-                        <div class="flex items-center">
-                            <span class="uppercase font-bold">see all similarweb offices</span>
-                            <img class="w-6 h-4 pl-2" src={down} alt="" />
+                <div class="bg-white">
+                    <div class="relative pt-2 px-8 mx-auto max-w-7xl">
+                        <div class="pb-4">
+                            <hr class="border border-gray-200 mb-2" />
+                            <div class="flex items-center">
+                                <span class="uppercase font-bold">see all similarweb offices</span>
+                                <img class="w-6 h-4 pl-2" src={down} alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
