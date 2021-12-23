@@ -6,7 +6,7 @@ import play from './icons/play2.svg';
 
 function TrialProject() {
     return (
-        <div class="relative flex flex-col md:flex-row max-w-7xl px-8 py-10 gap-12 mb-16 z-10 items-center">
+        <div class="relative flex flex-col md:flex-row max-w-7xl px-8 py-10 gap-12 mb-16 z-10 items-center justify-center">
             <div class="w-full md:w-1/2 flex items-start flex-col">
                 <h1 class="relative z-10 text-5xl font-bold leading-tight text-white lg:text-6xl pt-4">
                     Deep market insights at your fingertips
