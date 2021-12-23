@@ -1,5 +1,5 @@
 import React from 'react';
-import { Parallax, ParallaxLayer } from '@react-spring/web';
+// import { Parallax, ParallaxLayer } from '@react-spring/web';
 
 import bg1 from "./img/bg-1.svg";
 import Request from './Request';
