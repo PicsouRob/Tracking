@@ -7,7 +7,7 @@ function Request() {
                 <h1 class="relative z-10 pt-20 text-5xl font-bold leading-tight text-white md:text-6xl lg:text-7xl text-center">
                     Ready to Get Started? Start Your Free Trial
                 </h1>
-                <span class="flex gap-x-4 py-4 text-gray-200">
+                <span class="flex gap-x-4 py-4 text-xl tracking-wide leading-relaxed text-gray-300">
                     <span class="">Ready for 30 days trial</span>
                     <p class="">|</p>
                     <span class="">Exclusive support</span>

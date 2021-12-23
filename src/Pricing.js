@@ -13,7 +13,7 @@ function Pricing() {
                     <h1 class="relative z-10 pt-10 text-5xl font-bold leading-tight text-white md:text-6xl lg:text-7xl">
                         Pricing Plans
                     </h1>
-                    <p class="text-gray-300 my-3 leading-relaxed z-10 text-center px-10">
+                    <p class="text-xl tracking-wide text-gray-300 my-3 leading-relaxed z-10 text-center px-10">
                         Et ultrices neque ornare aenean euismod elementum nisi. Blandit aliquam etiam erat velit scelerisque in dictum non. 
                     </p>
                 </div>
