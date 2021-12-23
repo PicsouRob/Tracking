@@ -1,4 +1,5 @@
 import React from 'react';
+import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
 import bg1 from "./img/bg-1.svg";
 import Request from './Request';
@@ -15,7 +16,14 @@ function App() {
         <div class="overflow-hidden w-full font-sans bg-gray-900">
             <div class="relative">
                 <img class="absolute opacity-70" alt="top-svg" src={bg1} />
-                <Home />
+                <Parallax pages={2} style={{ top: '0', left: '0' }}>
+                    <ParallaxLayer
+                        offset={0}
+                        speed={2.5}
+                    >
+                        <Home />
+                    </ParallaxLayer>
+                </Parallax>
                 <Info />
                 <Manager />
                 <TrialProject />
