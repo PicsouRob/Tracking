@@ -4,7 +4,7 @@ function Request() {
     return (
         <div class="flex flex-col justify-center items-center overflow-hidden font-sans bg-gray-900 pb-24 px-10">
             <div class="flex flex-col justify-center items-center w-full md:max-w-4xl">
-                <h1 class="relative z-10 pt-10 text-5xl font-bold leading-tight text-white md:text-6xl lg:text-7xl text-center">
+                <h1 class="relative z-10 pt-20 text-5xl font-bold leading-tight text-white md:text-6xl lg:text-7xl text-center">
                     Ready to Get Started? Start Your Free Trial
                 </h1>
                 <span class="flex gap-x-4 py-4 text-gray-200">

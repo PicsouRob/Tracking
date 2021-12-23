@@ -23,3 +23,15 @@ export const features = [
         title: "Digital Analysis",
     },
 ];
+
+export const price = {
+    title: 'Basic Plan',
+    price: '$ 3.90',
+    text1: 'Velit esse cillium dolore eu fugiat nulla pariatur',
+    text2: 'Excepteur sint occaecat',
+    text3: 'Sed euismod nisi porta',
+    text4: 'Magna fringilla urna',
+    text5: 'Commodo quis imperdiet',
+}
+
+export const pricePlan = [1, 2, 3];
