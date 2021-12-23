@@ -21,7 +21,7 @@ function Pricing() {
             <div class="relative max-w-7xl mx-auto px-8 pb-10">
                 <div class="flex flex-col justify-center items-center">
                     <div class="py-8 w-full mx-auto">
-                        <div class="flex gap-x-8">
+                        <div class="flex justify-center items-center gap-x-8">
                             <span class="font-medium text-white px-4 border-b-4 border-b-white pb-5 text-center">
                                 Monthly Pricing
                             </span>
@@ -32,8 +32,8 @@ function Pricing() {
                                 Company Plan
                             </span>
                         </div>
-                        <hr class="border-2 border-gray-800 -mt-3 md:-mt-1" />
                     </div>
+                    <hr class="border-2 border-gray-800 -mt-3 md:-mt-1" />
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-2 my-8">
                         {pricePlan.map((item, index) => (
                             <div class="group bg-gray-800 shadow-md py-10 px-6 my-4 rounded-lg h-autot hover:translate-y-4 transition duration-300 ease-ou hover:bg-white">
