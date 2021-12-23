@@ -26,7 +26,7 @@ export const features = [
 
 export const price = {
     title: 'Basic Plan',
-    price: '$ 3.90',
+    price: '3.90',
     text1: 'Velit esse cillium dolore eu fugiat nulla pariatur',
     text2: 'Excepteur sint occaecat',
     text3: 'Sed euismod nisi porta',
