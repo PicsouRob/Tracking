@@ -20,7 +20,7 @@ function Pricing() {
             </div>
             <div class="relative w-full px-8 md:px-24 pb-10">
                 <div class="flex flex-col justify-center items-center">
-                    <div class="py-8">
+                    <div class="py-8 w-full">
                         <div class="flex items-center justify-center gap-x-8">
                             <span class="font-medium text-white px-4 border-b-4 border-b-white pb-5 text-center">
                                 Monthly Pricing
