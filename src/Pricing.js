@@ -32,8 +32,8 @@ function Pricing() {
                                 Company Plan
                             </span>
                         </div>
+                        <hr class="border-2 border-gray-800 -mt-3 md:-mt-1 w-full" />
                     </div>
-                    <hr class="border-2 border-gray-800 -mt-3 md:-mt-1" />
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-2 my-8">
                         {pricePlan.map((item, index) => (
                             <div class="group bg-gray-800 shadow-md py-10 px-6 my-4 rounded-lg h-autot hover:translate-y-4 transition duration-300 ease-ou hover:bg-white">
