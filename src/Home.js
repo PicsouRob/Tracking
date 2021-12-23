@@ -39,10 +39,10 @@ function Home() {
                             the things that matter the most.
                         </p>
                         <div class="flex gap-x-6 items-center pt-12">
-                            <button class="px-6 py-4 font-medium tracking-wide bg-teal-200 rounded-lg shadow-md transition hover:bg-teal-300">
+                            <button class="px-3 md:px-6 py-4 font-semibold tracking-wide bg-teal-200 rounded-lg shadow-md transition hover:bg-teal-300">
                                 Get Trial Project
                             </button>
-                            <button class="flex gap-x-2 items-center px-6 py-4 font-medium tracking-wide text-gray-300 transition hover:text-teal-300">
+                            <button class="flex gap-x-2 items-center px-3 md:px-6 py-4 font-medium tracking-wide text-gray-300 transition hover:text-teal-300">
                                 <img src={PlayIcon} alt="" class="w-8 h-8 stroke-current" />
                                 <span class="">Watch Demo</span>
                             </button>
