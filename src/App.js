@@ -7,6 +7,8 @@ import Paging from './Paging';
 import Bottom from './Bottom';
 import Info from './Info';
 import Home from './Home';
+import Manager from './Manager';
+import TrialProject from './TrialProject';
 
 function App() {
     return (
@@ -15,6 +17,8 @@ function App() {
                 <img class="absolute opacity-70" alt="top-svg" src={bg1} />
                 <Home />
                 <Info />
+                <Manager />
+                <TrialProject />
                 <Paging />
                 <Pricing />
                 <Request />

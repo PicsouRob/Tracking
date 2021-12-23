@@ -5,7 +5,7 @@ import FacebookLogo from "./icons/facebook.svg";
 import LogitechLogo from "./icons/logitech.svg";
 import TokopediaLogo from "./icons/tokopedia.svg";
 import PullAndBearLogo from "./icons/pull-and-bear.svg";
-import { menu, features } from './data';
+import { features } from './data';
 import bg2 from "./img/bg-2.svg";
 
 function Info() {
