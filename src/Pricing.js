@@ -39,7 +39,7 @@ function Pricing() {
                             <div class="group bg-gray-800 shadow-md py-10 px-6 my-4 rounded-lg h-autot hover:translate-y-4 transition duration-300 ease-ou hover:bg-white">
                                 <h3 class="text-center text-2xl mb-4 text-white font-bold group-hover:text-black">{price.title}</h3>
                                 <div class="flex items-center justify-center gap-x-3">
-                                    <span class="text-white text-2xl self-end">$</span>
+                                    <span class="text-white text-2xl">$</span>
                                     <h1 class="text-center text-3xl md:text-5xl py-4 text-white font-bold group-hover:text-black">{price.price}</h1>
                                 </div>
                                 <div class="flex gap-x-3 py-1">
